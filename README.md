@@ -2,7 +2,7 @@
 A quick, hacky script for displaying images on an RGB Matrix run by a Raspberry PI.
 
 ## Prerequisites
-This instructions assume that you have installed, and are able to use, [this library](https://github.com/hzeller/rpi-rgb-led-matrix).
+This instructions assume that you have installed, and are able to use, [this library](https://github.com/hzeller/rpi-rgb-led-matrix). It also requires a keyboard (or some other programmable button(s) that are able to send individual characters). By default, this script checks for the letters 'a', 'b', and 'c' for the different operations.
 
 ## Configuration
 There are multiple ways to get the script proper running on startup by the Raspberry PI; this is what worked for us.
