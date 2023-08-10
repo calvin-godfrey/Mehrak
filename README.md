@@ -10,8 +10,9 @@ There are multiple ways to get the script proper running on startup by the Raspb
 1. Create a file `mehrak.sh` in your user's home directory with following contents:
 ```
 #!/bin/sh
-sudo python mehrak.py <path_to_first_image> <path_to_second_image> <etc> <path_to_gif>
+sudo python mehrak.py pixil-layer-0.png pixil-layer-1.png pixil-layer-2.png pixil-layer-3.png pixil-gif-drawing.gif
 ```
+It may be necessary to include the full paths to the images instead, e.g. `/home/<username>/pixil-layer-0.png`.
 
 2. Execute the command `sudo chmod 777 mehrak.sh`.
 
