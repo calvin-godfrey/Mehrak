@@ -1,11 +1,11 @@
 # Mehrak
 A quick, hacky script for displaying images on an RGB Matrix run by a Raspberry PI.
 
+## Prerequisites
+This instructions assume that you have installed, and are able to use, [this library](https://github.com/hzeller/rpi-rgb-led-matrix).
+
 ## Configuration
 There are multiple ways to get the script proper running on startup by the Raspberry PI; this is what worked for us.
-
-### Prerequisites
-This instructions assume that you have installed, and are able to use, [this library](https://github.com/hzeller/rpi-rgb-led-matrix).
 
 1. Create a file `mehrak.sh` in your user's home directory with following contents:
 ```
