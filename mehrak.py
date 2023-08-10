@@ -14,22 +14,20 @@ from PIL import Image
 # so the file names start with sys.argv[1]. This program
 # assumes that the files exist and will crash if they do not.
 if len(sys.argv) < 7:
-    sys.exit("Expecting 5 images and 1 gif (last)")
+    sys.exit("Expecting 4 images and 1 gif (last)")
 else:
     image_file1 = sys.argv[1]
     image_file2 = sys.argv[2]
     image_file3 = sys.argv[3]
     image_file4 = sys.argv[4]
-    image_file5 = sys.argv[5]
-    gif_file = sys.argv[6]
+    gif_file = sys.argv[5]
 
 # Read the images at the provided paths.
 image1 = Image.open(image_file1)
 image2 = Image.open(image_file2)
 image3 = Image.open(image_file3)
 image4 = Image.open(image_file4)
-image5 = Image.open(image_file5)
-images = [image1, image2, image3, image4, image5]
+images = [image1, image2, image3, image4]
 gif = Image.open(gif_file)
 image_count = len(images)
 image_index = 0
